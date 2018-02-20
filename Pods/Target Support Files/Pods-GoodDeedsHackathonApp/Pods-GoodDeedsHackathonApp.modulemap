@@ -1,0 +1,6 @@
+framework module Pods_GoodDeedsHackathonApp {
+  umbrella header "Pods-GoodDeedsHackathonApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

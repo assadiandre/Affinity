@@ -1,0 +1,974 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15C227706802347040C8D196 /* Pods_GoodDeedsHackathonAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4827491A40A09C6A71EE1EC /* Pods_GoodDeedsHackathonAppTests.framework */; };
+		3134DCA0200AC43C00B1712B /* HalfModalTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3134DC9D200AC43C00B1712B /* HalfModalTransitionAnimator.swift */; };
+		3134DCA1200AC43C00B1712B /* HalfModalInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3134DC9E200AC43C00B1712B /* HalfModalInteractiveTransition.swift */; };
+		3134DCA2200AC43C00B1712B /* HalfModalTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3134DC9F200AC43C00B1712B /* HalfModalTransitioningDelegate.swift */; };
+		3134DCA5200AC45B00B1712B /* HalfModalPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3134DCA4200AC45B00B1712B /* HalfModalPresentationController.swift */; };
+		3134DCA7200AC4F400B1712B /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3134DCA6200AC4F400B1712B /* ModalViewController.swift */; };
+		3134DCA9200BDF0600B1712B /* Modal2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3134DCA8200BDF0600B1712B /* Modal2ViewController.swift */; };
+		3134DCAB200BEA3500B1712B /* Modal3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3134DCAA200BEA3500B1712B /* Modal3ViewController.swift */; };
+		3134DCAD200BEA4200B1712B /* Modal4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3134DCAC200BEA4200B1712B /* Modal4ViewController.swift */; };
+		3134DCB1200C022100B1712B /* ArtworkViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3134DCB0200C022100B1712B /* ArtworkViews.swift */; };
+		3134DCB6200C15AF00B1712B /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3134DCB5200C15AF00B1712B /* Order.swift */; };
+		3134DCBA200DCE7100B1712B /* GroceryStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3134DCB9200DCE7100B1712B /* GroceryStatusViewController.swift */; };
+		3134DCBC200EEB3A00B1712B /* GroceryProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3134DCBB200EEB3A00B1712B /* GroceryProfileViewController.swift */; };
+		3134DCBE2011ACA900B1712B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3134DCBD2011ACA900B1712B /* User.swift */; };
+		3134DCC320158DF600B1712B /* LoginFlow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3134DCC220158DF600B1712B /* LoginFlow.storyboard */; };
+		3151182F2007232400C6EB00 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3151182E2007232300C6EB00 /* LoginViewController.swift */; };
+		315118312007372000C6EB00 /* NewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315118302007372000C6EB00 /* NewAccountViewController.swift */; };
+		31511834200861F500C6EB00 /* GroceryMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31511833200861F500C6EB00 /* GroceryMenuViewController.swift */; };
+		3151183620099FBF00C6EB00 /* GroceryMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3151183520099FBF00C6EB00 /* GroceryMapViewController.swift */; };
+		315118382009A9AA00C6EB00 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315118372009A9AA00C6EB00 /* Artwork.swift */; };
+		3151183A2009ECE800C6EB00 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 315118392009ECE800C6EB00 /* GoogleService-Info.plist */; };
+		3151183C200AA23300C6EB00 /* GroceryMapInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3151183B200AA23300C6EB00 /* GroceryMapInfoViewController.swift */; };
+		317EEA5F201595AC00DEEF72 /* OrderFlow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 317EEA5E201595AC00DEEF72 /* OrderFlow.storyboard */; };
+		317EEA6420195E5700DEEF72 /* FoodBankFlow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 317EEA6320195E5700DEEF72 /* FoodBankFlow.storyboard */; };
+		317EEA68201AC1B200DEEF72 /* FoodBankMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317EEA67201AC1B200DEEF72 /* FoodBankMapViewController.swift */; };
+		317EEA6C201AD09A00DEEF72 /* FoodBankSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317EEA6B201AD09A00DEEF72 /* FoodBankSelectViewController.swift */; };
+		317EEA6E201AEDE400DEEF72 /* FoodBankOrderInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317EEA6D201AEDE400DEEF72 /* FoodBankOrderInfoViewController.swift */; };
+		317EEA70201AF14E00DEEF72 /* FoodBankProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317EEA6F201AF14E00DEEF72 /* FoodBankProfileViewController.swift */; };
+		56B1DBBB2002E72800A80D27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B1DBBA2002E72800A80D27 /* AppDelegate.swift */; };
+		56B1DBBD2002E72800A80D27 /* ChooseTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B1DBBC2002E72800A80D27 /* ChooseTypeViewController.swift */; };
+		56B1DBC02002E72800A80D27 /* GroceryFlow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56B1DBBE2002E72800A80D27 /* GroceryFlow.storyboard */; };
+		56B1DBC22002E72800A80D27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56B1DBC12002E72800A80D27 /* Assets.xcassets */; };
+		56B1DBC52002E72800A80D27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56B1DBC32002E72800A80D27 /* LaunchScreen.storyboard */; };
+		56B1DBD02002E72800A80D27 /* GoodDeedsHackathonAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B1DBCF2002E72800A80D27 /* GoodDeedsHackathonAppTests.swift */; };
+		56B1DBDB2002E72800A80D27 /* GoodDeedsHackathonAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B1DBDA2002E72800A80D27 /* GoodDeedsHackathonAppUITests.swift */; };
+		65473CE3201D407A005266ED /* FoodBankInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65473CE2201D407A005266ED /* FoodBankInfoViewController.swift */; };
+		65473CE5201E5D0E005266ED /* FoodBankInventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65473CE4201E5D0E005266ED /* FoodBankInventoryViewController.swift */; };
+		AD9B14C0F21EB9F97B1682AE /* Pods_GoodDeedsHackathonAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8F160A74372E3C7FD11D779 /* Pods_GoodDeedsHackathonAppUITests.framework */; };
+		D7C8ED4C654EEDD7EB96BA17 /* Pods_GoodDeedsHackathonApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA8659BD5DF0E4C3B23AB214 /* Pods_GoodDeedsHackathonApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56B1DBCC2002E72800A80D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56B1DBAF2002E72800A80D27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56B1DBB62002E72800A80D27;
+			remoteInfo = GoodDeedsHackathonApp;
+		};
+		56B1DBD72002E72800A80D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56B1DBAF2002E72800A80D27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56B1DBB62002E72800A80D27;
+			remoteInfo = GoodDeedsHackathonApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05C228A5460567EDFA05C7C5 /* Pods-GoodDeedsHackathonApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodDeedsHackathonApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoodDeedsHackathonApp/Pods-GoodDeedsHackathonApp.release.xcconfig"; sourceTree = "<group>"; };
+		3134DC9D200AC43C00B1712B /* HalfModalTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfModalTransitionAnimator.swift; sourceTree = "<group>"; };
+		3134DC9E200AC43C00B1712B /* HalfModalInteractiveTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfModalInteractiveTransition.swift; sourceTree = "<group>"; };
+		3134DC9F200AC43C00B1712B /* HalfModalTransitioningDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfModalTransitioningDelegate.swift; sourceTree = "<group>"; };
+		3134DCA4200AC45B00B1712B /* HalfModalPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfModalPresentationController.swift; sourceTree = "<group>"; };
+		3134DCA6200AC4F400B1712B /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		3134DCA8200BDF0600B1712B /* Modal2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal2ViewController.swift; sourceTree = "<group>"; };
+		3134DCAA200BEA3500B1712B /* Modal3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal3ViewController.swift; sourceTree = "<group>"; };
+		3134DCAC200BEA4200B1712B /* Modal4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal4ViewController.swift; sourceTree = "<group>"; };
+		3134DCB0200C022100B1712B /* ArtworkViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkViews.swift; sourceTree = "<group>"; };
+		3134DCB5200C15AF00B1712B /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		3134DCB9200DCE7100B1712B /* GroceryStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryStatusViewController.swift; sourceTree = "<group>"; };
+		3134DCBB200EEB3A00B1712B /* GroceryProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryProfileViewController.swift; sourceTree = "<group>"; };
+		3134DCBD2011ACA900B1712B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3134DCC220158DF600B1712B /* LoginFlow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginFlow.storyboard; sourceTree = "<group>"; };
+		3151182E2007232300C6EB00 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		315118302007372000C6EB00 /* NewAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccountViewController.swift; sourceTree = "<group>"; };
+		31511833200861F500C6EB00 /* GroceryMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryMenuViewController.swift; sourceTree = "<group>"; };
+		3151183520099FBF00C6EB00 /* GroceryMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryMapViewController.swift; sourceTree = "<group>"; };
+		315118372009A9AA00C6EB00 /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		315118392009ECE800C6EB00 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3151183B200AA23300C6EB00 /* GroceryMapInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryMapInfoViewController.swift; sourceTree = "<group>"; };
+		317EEA5E201595AC00DEEF72 /* OrderFlow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OrderFlow.storyboard; sourceTree = "<group>"; };
+		317EEA6320195E5700DEEF72 /* FoodBankFlow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = FoodBankFlow.storyboard; path = GoodDeedsHackathonApp/Storyboards/FoodBankFlow.storyboard; sourceTree = SOURCE_ROOT; };
+		317EEA67201AC1B200DEEF72 /* FoodBankMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodBankMapViewController.swift; sourceTree = "<group>"; };
+		317EEA6B201AD09A00DEEF72 /* FoodBankSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodBankSelectViewController.swift; sourceTree = "<group>"; };
+		317EEA6D201AEDE400DEEF72 /* FoodBankOrderInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodBankOrderInfoViewController.swift; sourceTree = "<group>"; };
+		317EEA6F201AF14E00DEEF72 /* FoodBankProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodBankProfileViewController.swift; sourceTree = "<group>"; };
+		47D22238E7F60DEC672AB030 /* Pods-GoodDeedsHackathonAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodDeedsHackathonAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoodDeedsHackathonAppUITests/Pods-GoodDeedsHackathonAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		56B1DBB72002E72800A80D27 /* GoodDeedsHackathonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodDeedsHackathonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56B1DBBA2002E72800A80D27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56B1DBBC2002E72800A80D27 /* ChooseTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseTypeViewController.swift; sourceTree = "<group>"; };
+		56B1DBBF2002E72800A80D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/GroceryFlow.storyboard; sourceTree = "<group>"; };
+		56B1DBC12002E72800A80D27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56B1DBC42002E72800A80D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56B1DBC62002E72800A80D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56B1DBCB2002E72800A80D27 /* GoodDeedsHackathonAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodDeedsHackathonAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56B1DBCF2002E72800A80D27 /* GoodDeedsHackathonAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodDeedsHackathonAppTests.swift; sourceTree = "<group>"; };
+		56B1DBD12002E72800A80D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56B1DBD62002E72800A80D27 /* GoodDeedsHackathonAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodDeedsHackathonAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56B1DBDA2002E72800A80D27 /* GoodDeedsHackathonAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodDeedsHackathonAppUITests.swift; sourceTree = "<group>"; };
+		56B1DBDC2002E72800A80D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65473CE2201D407A005266ED /* FoodBankInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodBankInfoViewController.swift; sourceTree = "<group>"; };
+		65473CE4201E5D0E005266ED /* FoodBankInventoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodBankInventoryViewController.swift; sourceTree = "<group>"; };
+		85B22212B06A632C37C91A22 /* Pods-GoodDeedsHackathonAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodDeedsHackathonAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoodDeedsHackathonAppUITests/Pods-GoodDeedsHackathonAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		88550EEB681D8AEBA8FCB43E /* Pods-GoodDeedsHackathonAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodDeedsHackathonAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoodDeedsHackathonAppTests/Pods-GoodDeedsHackathonAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		90C49533048E4C6B7326D3B6 /* Pods-GoodDeedsHackathonApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodDeedsHackathonApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoodDeedsHackathonApp/Pods-GoodDeedsHackathonApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B4827491A40A09C6A71EE1EC /* Pods_GoodDeedsHackathonAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoodDeedsHackathonAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8659BD5DF0E4C3B23AB214 /* Pods_GoodDeedsHackathonApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoodDeedsHackathonApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8F160A74372E3C7FD11D779 /* Pods_GoodDeedsHackathonAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoodDeedsHackathonAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE9C33CA9B6A3FA0361ECD3 /* Pods-GoodDeedsHackathonAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodDeedsHackathonAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoodDeedsHackathonAppTests/Pods-GoodDeedsHackathonAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56B1DBB42002E72800A80D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C8ED4C654EEDD7EB96BA17 /* Pods_GoodDeedsHackathonApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56B1DBC82002E72800A80D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C227706802347040C8D196 /* Pods_GoodDeedsHackathonAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56B1DBD32002E72800A80D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9B14C0F21EB9F97B1682AE /* Pods_GoodDeedsHackathonAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3134DC9C200AC42D00B1712B /* Transitioning */ = {
+			isa = PBXGroup;
+			children = (
+				3134DC9E200AC43C00B1712B /* HalfModalInteractiveTransition.swift */,
+				3134DC9D200AC43C00B1712B /* HalfModalTransitionAnimator.swift */,
+				3134DC9F200AC43C00B1712B /* HalfModalTransitioningDelegate.swift */,
+			);
+			path = Transitioning;
+			sourceTree = "<group>";
+		};
+		3134DCA3200AC44B00B1712B /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				3134DCA4200AC45B00B1712B /* HalfModalPresentationController.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		3134DCB2200C152300B1712B /* Login Flow */ = {
+			isa = PBXGroup;
+			children = (
+				56B1DBBC2002E72800A80D27 /* ChooseTypeViewController.swift */,
+				315118302007372000C6EB00 /* NewAccountViewController.swift */,
+				3151182E2007232300C6EB00 /* LoginViewController.swift */,
+			);
+			path = "Login Flow";
+			sourceTree = "<group>";
+		};
+		3134DCB3200C154200B1712B /* Half Modal Files */ = {
+			isa = PBXGroup;
+			children = (
+				3134DCA3200AC44B00B1712B /* Presentation */,
+				3134DC9C200AC42D00B1712B /* Transitioning */,
+			);
+			path = "Half Modal Files";
+			sourceTree = "<group>";
+		};
+		3134DCB4200C159500B1712B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3134DCB5200C15AF00B1712B /* Order.swift */,
+				3134DCBD2011ACA900B1712B /* User.swift */,
+				317EEA66201ABA0C00DEEF72 /* Artwork Files */,
+				3134DCB3200C154200B1712B /* Half Modal Files */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3134DCC4201591B000B1712B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				317EEA6220195D9F00DEEF72 /* Grocery Storyboards */,
+				3134DCC220158DF600B1712B /* LoginFlow.storyboard */,
+				317EEA6320195E5700DEEF72 /* FoodBankFlow.storyboard */,
+				56B1DBC32002E72800A80D27 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		31511832200861B800C6EB00 /* GroceryViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				31511833200861F500C6EB00 /* GroceryMenuViewController.swift */,
+				3151183520099FBF00C6EB00 /* GroceryMapViewController.swift */,
+				3151183B200AA23300C6EB00 /* GroceryMapInfoViewController.swift */,
+				3134DCB9200DCE7100B1712B /* GroceryStatusViewController.swift */,
+				3134DCBB200EEB3A00B1712B /* GroceryProfileViewController.swift */,
+				3134DCA6200AC4F400B1712B /* ModalViewController.swift */,
+				3134DCA8200BDF0600B1712B /* Modal2ViewController.swift */,
+				3134DCAA200BEA3500B1712B /* Modal3ViewController.swift */,
+				3134DCAC200BEA4200B1712B /* Modal4ViewController.swift */,
+			);
+			path = GroceryViewControllers;
+			sourceTree = "<group>";
+		};
+		317EEA6220195D9F00DEEF72 /* Grocery Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				56B1DBBE2002E72800A80D27 /* GroceryFlow.storyboard */,
+				317EEA5E201595AC00DEEF72 /* OrderFlow.storyboard */,
+			);
+			path = "Grocery Storyboards";
+			sourceTree = "<group>";
+		};
+		317EEA65201AB9D600DEEF72 /* FoodBankViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				317EEA67201AC1B200DEEF72 /* FoodBankMapViewController.swift */,
+				317EEA6B201AD09A00DEEF72 /* FoodBankSelectViewController.swift */,
+				317EEA6D201AEDE400DEEF72 /* FoodBankOrderInfoViewController.swift */,
+				317EEA6F201AF14E00DEEF72 /* FoodBankProfileViewController.swift */,
+				65473CE2201D407A005266ED /* FoodBankInfoViewController.swift */,
+				65473CE4201E5D0E005266ED /* FoodBankInventoryViewController.swift */,
+			);
+			path = FoodBankViewControllers;
+			sourceTree = "<group>";
+		};
+		317EEA66201ABA0C00DEEF72 /* Artwork Files */ = {
+			isa = PBXGroup;
+			children = (
+				315118372009A9AA00C6EB00 /* Artwork.swift */,
+				3134DCB0200C022100B1712B /* ArtworkViews.swift */,
+			);
+			path = "Artwork Files";
+			sourceTree = "<group>";
+		};
+		32A6EBFD4A0BCF5DC35D4B83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90C49533048E4C6B7326D3B6 /* Pods-GoodDeedsHackathonApp.debug.xcconfig */,
+				05C228A5460567EDFA05C7C5 /* Pods-GoodDeedsHackathonApp.release.xcconfig */,
+				DDE9C33CA9B6A3FA0361ECD3 /* Pods-GoodDeedsHackathonAppTests.debug.xcconfig */,
+				88550EEB681D8AEBA8FCB43E /* Pods-GoodDeedsHackathonAppTests.release.xcconfig */,
+				47D22238E7F60DEC672AB030 /* Pods-GoodDeedsHackathonAppUITests.debug.xcconfig */,
+				85B22212B06A632C37C91A22 /* Pods-GoodDeedsHackathonAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		56B1DBAE2002E72800A80D27 = {
+			isa = PBXGroup;
+			children = (
+				56B1DBB92002E72800A80D27 /* GoodDeedsHackathonApp */,
+				56B1DBCE2002E72800A80D27 /* GoodDeedsHackathonAppTests */,
+				56B1DBD92002E72800A80D27 /* GoodDeedsHackathonAppUITests */,
+				56B1DBB82002E72800A80D27 /* Products */,
+				32A6EBFD4A0BCF5DC35D4B83 /* Pods */,
+				F292C892509644B32E4A528B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		56B1DBB82002E72800A80D27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56B1DBB72002E72800A80D27 /* GoodDeedsHackathonApp.app */,
+				56B1DBCB2002E72800A80D27 /* GoodDeedsHackathonAppTests.xctest */,
+				56B1DBD62002E72800A80D27 /* GoodDeedsHackathonAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56B1DBB92002E72800A80D27 /* GoodDeedsHackathonApp */ = {
+			isa = PBXGroup;
+			children = (
+				3134DCB4200C159500B1712B /* Models */,
+				315118392009ECE800C6EB00 /* GoogleService-Info.plist */,
+				56B1DBBA2002E72800A80D27 /* AppDelegate.swift */,
+				317EEA65201AB9D600DEEF72 /* FoodBankViewControllers */,
+				3134DCB2200C152300B1712B /* Login Flow */,
+				31511832200861B800C6EB00 /* GroceryViewControllers */,
+				3134DCC4201591B000B1712B /* Storyboards */,
+				56B1DBC12002E72800A80D27 /* Assets.xcassets */,
+				56B1DBC62002E72800A80D27 /* Info.plist */,
+			);
+			path = GoodDeedsHackathonApp;
+			sourceTree = "<group>";
+		};
+		56B1DBCE2002E72800A80D27 /* GoodDeedsHackathonAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				56B1DBCF2002E72800A80D27 /* GoodDeedsHackathonAppTests.swift */,
+				56B1DBD12002E72800A80D27 /* Info.plist */,
+			);
+			path = GoodDeedsHackathonAppTests;
+			sourceTree = "<group>";
+		};
+		56B1DBD92002E72800A80D27 /* GoodDeedsHackathonAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				56B1DBDA2002E72800A80D27 /* GoodDeedsHackathonAppUITests.swift */,
+				56B1DBDC2002E72800A80D27 /* Info.plist */,
+			);
+			path = GoodDeedsHackathonAppUITests;
+			sourceTree = "<group>";
+		};
+		F292C892509644B32E4A528B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA8659BD5DF0E4C3B23AB214 /* Pods_GoodDeedsHackathonApp.framework */,
+				B4827491A40A09C6A71EE1EC /* Pods_GoodDeedsHackathonAppTests.framework */,
+				C8F160A74372E3C7FD11D779 /* Pods_GoodDeedsHackathonAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56B1DBB62002E72800A80D27 /* GoodDeedsHackathonApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56B1DBDF2002E72800A80D27 /* Build configuration list for PBXNativeTarget "GoodDeedsHackathonApp" */;
+			buildPhases = (
+				DFEB7B529CF2F791D7EF148A /* [CP] Check Pods Manifest.lock */,
+				56B1DBB32002E72800A80D27 /* Sources */,
+				56B1DBB42002E72800A80D27 /* Frameworks */,
+				56B1DBB52002E72800A80D27 /* Resources */,
+				936EB61E65B20502EDF892AD /* [CP] Embed Pods Frameworks */,
+				CC32D77EEF7ADCCA192C6F56 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoodDeedsHackathonApp;
+			productName = GoodDeedsHackathonApp;
+			productReference = 56B1DBB72002E72800A80D27 /* GoodDeedsHackathonApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56B1DBCA2002E72800A80D27 /* GoodDeedsHackathonAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56B1DBE22002E72800A80D27 /* Build configuration list for PBXNativeTarget "GoodDeedsHackathonAppTests" */;
+			buildPhases = (
+				097AFEF611F59A4531717049 /* [CP] Check Pods Manifest.lock */,
+				56B1DBC72002E72800A80D27 /* Sources */,
+				56B1DBC82002E72800A80D27 /* Frameworks */,
+				56B1DBC92002E72800A80D27 /* Resources */,
+				52F4A63740BB9CAF31D763A3 /* [CP] Embed Pods Frameworks */,
+				B43B23A5AE4252B17EC00449 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56B1DBCD2002E72800A80D27 /* PBXTargetDependency */,
+			);
+			name = GoodDeedsHackathonAppTests;
+			productName = GoodDeedsHackathonAppTests;
+			productReference = 56B1DBCB2002E72800A80D27 /* GoodDeedsHackathonAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		56B1DBD52002E72800A80D27 /* GoodDeedsHackathonAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56B1DBE52002E72800A80D27 /* Build configuration list for PBXNativeTarget "GoodDeedsHackathonAppUITests" */;
+			buildPhases = (
+				6668CAF3972AC39EE35CB6B8 /* [CP] Check Pods Manifest.lock */,
+				56B1DBD22002E72800A80D27 /* Sources */,
+				56B1DBD32002E72800A80D27 /* Frameworks */,
+				56B1DBD42002E72800A80D27 /* Resources */,
+				20D9E160444B196DD4DA09D5 /* [CP] Embed Pods Frameworks */,
+				1A7D38A0B7B2C60A7ABBBEFF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56B1DBD82002E72800A80D27 /* PBXTargetDependency */,
+			);
+			name = GoodDeedsHackathonAppUITests;
+			productName = GoodDeedsHackathonAppUITests;
+			productReference = 56B1DBD62002E72800A80D27 /* GoodDeedsHackathonAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56B1DBAF2002E72800A80D27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Nathan Baker";
+				TargetAttributes = {
+					56B1DBB62002E72800A80D27 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					56B1DBCA2002E72800A80D27 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 56B1DBB62002E72800A80D27;
+					};
+					56B1DBD52002E72800A80D27 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 56B1DBB62002E72800A80D27;
+					};
+				};
+			};
+			buildConfigurationList = 56B1DBB22002E72800A80D27 /* Build configuration list for PBXProject "GoodDeedsHackathonApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56B1DBAE2002E72800A80D27;
+			productRefGroup = 56B1DBB82002E72800A80D27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56B1DBB62002E72800A80D27 /* GoodDeedsHackathonApp */,
+				56B1DBCA2002E72800A80D27 /* GoodDeedsHackathonAppTests */,
+				56B1DBD52002E72800A80D27 /* GoodDeedsHackathonAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56B1DBB52002E72800A80D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B1DBC52002E72800A80D27 /* LaunchScreen.storyboard in Resources */,
+				56B1DBC22002E72800A80D27 /* Assets.xcassets in Resources */,
+				56B1DBC02002E72800A80D27 /* GroceryFlow.storyboard in Resources */,
+				3151183A2009ECE800C6EB00 /* GoogleService-Info.plist in Resources */,
+				317EEA6420195E5700DEEF72 /* FoodBankFlow.storyboard in Resources */,
+				3134DCC320158DF600B1712B /* LoginFlow.storyboard in Resources */,
+				317EEA5F201595AC00DEEF72 /* OrderFlow.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56B1DBC92002E72800A80D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56B1DBD42002E72800A80D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		097AFEF611F59A4531717049 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoodDeedsHackathonAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A7D38A0B7B2C60A7ABBBEFF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoodDeedsHackathonAppUITests/Pods-GoodDeedsHackathonAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20D9E160444B196DD4DA09D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoodDeedsHackathonAppUITests/Pods-GoodDeedsHackathonAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52F4A63740BB9CAF31D763A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoodDeedsHackathonAppTests/Pods-GoodDeedsHackathonAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6668CAF3972AC39EE35CB6B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoodDeedsHackathonAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		936EB61E65B20502EDF892AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GoodDeedsHackathonApp/Pods-GoodDeedsHackathonApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoodDeedsHackathonApp/Pods-GoodDeedsHackathonApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B43B23A5AE4252B17EC00449 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoodDeedsHackathonAppTests/Pods-GoodDeedsHackathonAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC32D77EEF7ADCCA192C6F56 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoodDeedsHackathonApp/Pods-GoodDeedsHackathonApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFEB7B529CF2F791D7EF148A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoodDeedsHackathonApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56B1DBB32002E72800A80D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3134DCBC200EEB3A00B1712B /* GroceryProfileViewController.swift in Sources */,
+				317EEA6C201AD09A00DEEF72 /* FoodBankSelectViewController.swift in Sources */,
+				31511834200861F500C6EB00 /* GroceryMenuViewController.swift in Sources */,
+				3151183620099FBF00C6EB00 /* GroceryMapViewController.swift in Sources */,
+				315118382009A9AA00C6EB00 /* Artwork.swift in Sources */,
+				317EEA70201AF14E00DEEF72 /* FoodBankProfileViewController.swift in Sources */,
+				3134DCA2200AC43C00B1712B /* HalfModalTransitioningDelegate.swift in Sources */,
+				3134DCAB200BEA3500B1712B /* Modal3ViewController.swift in Sources */,
+				3134DCB1200C022100B1712B /* ArtworkViews.swift in Sources */,
+				317EEA68201AC1B200DEEF72 /* FoodBankMapViewController.swift in Sources */,
+				3134DCAD200BEA4200B1712B /* Modal4ViewController.swift in Sources */,
+				3151182F2007232400C6EB00 /* LoginViewController.swift in Sources */,
+				56B1DBBD2002E72800A80D27 /* ChooseTypeViewController.swift in Sources */,
+				3134DCA0200AC43C00B1712B /* HalfModalTransitionAnimator.swift in Sources */,
+				3134DCA1200AC43C00B1712B /* HalfModalInteractiveTransition.swift in Sources */,
+				3134DCA5200AC45B00B1712B /* HalfModalPresentationController.swift in Sources */,
+				65473CE5201E5D0E005266ED /* FoodBankInventoryViewController.swift in Sources */,
+				3134DCB6200C15AF00B1712B /* Order.swift in Sources */,
+				3134DCA7200AC4F400B1712B /* ModalViewController.swift in Sources */,
+				65473CE3201D407A005266ED /* FoodBankInfoViewController.swift in Sources */,
+				3151183C200AA23300C6EB00 /* GroceryMapInfoViewController.swift in Sources */,
+				3134DCBA200DCE7100B1712B /* GroceryStatusViewController.swift in Sources */,
+				3134DCA9200BDF0600B1712B /* Modal2ViewController.swift in Sources */,
+				317EEA6E201AEDE400DEEF72 /* FoodBankOrderInfoViewController.swift in Sources */,
+				56B1DBBB2002E72800A80D27 /* AppDelegate.swift in Sources */,
+				315118312007372000C6EB00 /* NewAccountViewController.swift in Sources */,
+				3134DCBE2011ACA900B1712B /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56B1DBC72002E72800A80D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B1DBD02002E72800A80D27 /* GoodDeedsHackathonAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56B1DBD22002E72800A80D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B1DBDB2002E72800A80D27 /* GoodDeedsHackathonAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56B1DBCD2002E72800A80D27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56B1DBB62002E72800A80D27 /* GoodDeedsHackathonApp */;
+			targetProxy = 56B1DBCC2002E72800A80D27 /* PBXContainerItemProxy */;
+		};
+		56B1DBD82002E72800A80D27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56B1DBB62002E72800A80D27 /* GoodDeedsHackathonApp */;
+			targetProxy = 56B1DBD72002E72800A80D27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56B1DBBE2002E72800A80D27 /* GroceryFlow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56B1DBBF2002E72800A80D27 /* Base */,
+			);
+			name = GroceryFlow.storyboard;
+			sourceTree = "<group>";
+		};
+		56B1DBC32002E72800A80D27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56B1DBC42002E72800A80D27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56B1DBDD2002E72800A80D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56B1DBDE2002E72800A80D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56B1DBE02002E72800A80D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90C49533048E4C6B7326D3B6 /* Pods-GoodDeedsHackathonApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6STS6A83BV;
+				INFOPLIST_FILE = GoodDeedsHackathonApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NathanBaker.GoodDeedsHackathonApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56B1DBE12002E72800A80D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05C228A5460567EDFA05C7C5 /* Pods-GoodDeedsHackathonApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6STS6A83BV;
+				INFOPLIST_FILE = GoodDeedsHackathonApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NathanBaker.GoodDeedsHackathonApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		56B1DBE32002E72800A80D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDE9C33CA9B6A3FA0361ECD3 /* Pods-GoodDeedsHackathonAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoodDeedsHackathonAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NathanBaker.GoodDeedsHackathonAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodDeedsHackathonApp.app/GoodDeedsHackathonApp";
+			};
+			name = Debug;
+		};
+		56B1DBE42002E72800A80D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88550EEB681D8AEBA8FCB43E /* Pods-GoodDeedsHackathonAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoodDeedsHackathonAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NathanBaker.GoodDeedsHackathonAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodDeedsHackathonApp.app/GoodDeedsHackathonApp";
+			};
+			name = Release;
+		};
+		56B1DBE62002E72800A80D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47D22238E7F60DEC672AB030 /* Pods-GoodDeedsHackathonAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoodDeedsHackathonAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NathanBaker.GoodDeedsHackathonAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoodDeedsHackathonApp;
+			};
+			name = Debug;
+		};
+		56B1DBE72002E72800A80D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85B22212B06A632C37C91A22 /* Pods-GoodDeedsHackathonAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoodDeedsHackathonAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NathanBaker.GoodDeedsHackathonAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoodDeedsHackathonApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56B1DBB22002E72800A80D27 /* Build configuration list for PBXProject "GoodDeedsHackathonApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56B1DBDD2002E72800A80D27 /* Debug */,
+				56B1DBDE2002E72800A80D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56B1DBDF2002E72800A80D27 /* Build configuration list for PBXNativeTarget "GoodDeedsHackathonApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56B1DBE02002E72800A80D27 /* Debug */,
+				56B1DBE12002E72800A80D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56B1DBE22002E72800A80D27 /* Build configuration list for PBXNativeTarget "GoodDeedsHackathonAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56B1DBE32002E72800A80D27 /* Debug */,
+				56B1DBE42002E72800A80D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56B1DBE52002E72800A80D27 /* Build configuration list for PBXNativeTarget "GoodDeedsHackathonAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56B1DBE62002E72800A80D27 /* Debug */,
+				56B1DBE72002E72800A80D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56B1DBAF2002E72800A80D27 /* Project object */;
+}

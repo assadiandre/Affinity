@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>216588756196-h72b9k2qgmqpcm29livid8q9l1na3f78.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.216588756196-h72b9k2qgmqpcm29livid8q9l1na3f78</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDeiCNHgKt99PUDQ13KfG0cdId_MgzwWK8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>216588756196</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>NathanBaker.GoodDeedsHackathonApp</string>
+	<key>PROJECT_ID</key>
+	<string>gooddeeds-3beba</string>
+	<key>STORAGE_BUCKET</key>
+	<string>gooddeeds-3beba.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:216588756196:ios:74e1847bc76a1543</string>
+	<key>DATABASE_URL</key>
+	<string>https://gooddeeds-3beba.firebaseio.com</string>
+</dict>
+</plist>
