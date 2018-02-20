@@ -2,9 +2,8 @@
 
 This app was designed for a social impact hackathon in SF named 100Hacks. The purpose of Affinity was to connect Food Banks with Grocery Stores in order to fix the food waste issue in America today. The app itself was comprised of three parts. The Food Bank interface, the Grocery interface, and a twilio based chat that enabled the homeless as well as people in need to find the nearest free meal in their area by connecting to a Firebase server. I programmed the app with the help of my friend Nathan who programmed most of the backend.
 
-![alt text](https://image.ibb.co/g43dvx/screenshot2.png)
-![alt text](https://image.ibb.co/mibbhc/screenshot1.png)
-![alt text](https://image.ibb.co/mVff8H/screenshot3.png)
+![alt text](https://image.ibb.co/bPV0ax/screenshot2.png) ![alt text](https://image.ibb.co/hABj2c/screenshot1.png)
+![alt text](https://image.ibb.co/izZhoH/screenshot3.png)
 
 
 **To run the app:**
