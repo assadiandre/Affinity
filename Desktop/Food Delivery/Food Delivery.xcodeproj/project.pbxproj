@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		632CE506A1F3DBD49B3A58D3 /* Pods_Food_Delivery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3975B2EE1E7816798216D23 /* Pods_Food_Delivery.framework */; };
+		6578388720D97EEF004E8702 /* OrderDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6578388620D97EEF004E8702 /* OrderDescriptionViewController.swift */; };
+		65D2361720B35F2E0096AC33 /* DeliverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D2361620B35F2E0096AC33 /* DeliverViewController.swift */; };
+		65F2429D20B1F85800B35DD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F2429C20B1F85800B35DD2 /* AppDelegate.swift */; };
+		65F2429F20B1F85800B35DD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F2429E20B1F85800B35DD2 /* ViewController.swift */; };
+		65F242A220B1F85800B35DD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65F242A020B1F85800B35DD2 /* Main.storyboard */; };
+		65F242A420B1F85800B35DD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65F242A320B1F85800B35DD2 /* Assets.xcassets */; };
+		65F242A720B1F85800B35DD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65F242A520B1F85800B35DD2 /* LaunchScreen.storyboard */; };
+		65F242AF20B1FF7500B35DD2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65F242AE20B1FF7500B35DD2 /* GoogleService-Info.plist */; };
+		65F242B120B22EA700B35DD2 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F242B020B22EA700B35DD2 /* CustomImageView.swift */; };
+		65F242B320B28B7700B35DD2 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F242B220B28B7700B35DD2 /* SearchViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		546D1FB8CE5425393219E333 /* Pods-Food Delivery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Delivery.release.xcconfig"; path = "Pods/Target Support Files/Pods-Food Delivery/Pods-Food Delivery.release.xcconfig"; sourceTree = "<group>"; };
+		6578388620D97EEF004E8702 /* OrderDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDescriptionViewController.swift; sourceTree = "<group>"; };
+		65D2361620B35F2E0096AC33 /* DeliverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliverViewController.swift; sourceTree = "<group>"; };
+		65F2429920B1F85800B35DD2 /* Food Delivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Delivery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F2429C20B1F85800B35DD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65F2429E20B1F85800B35DD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65F242A120B1F85800B35DD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65F242A320B1F85800B35DD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65F242A620B1F85800B35DD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65F242A820B1F85800B35DD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65F242AE20B1FF7500B35DD2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		65F242B020B22EA700B35DD2 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		65F242B220B28B7700B35DD2 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		7D029E3CB9FB8BE8F47FEDB1 /* Pods-Food Delivery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Delivery.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Food Delivery/Pods-Food Delivery.debug.xcconfig"; sourceTree = "<group>"; };
+		F3975B2EE1E7816798216D23 /* Pods_Food_Delivery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_Delivery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65F2429620B1F85800B35DD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632CE506A1F3DBD49B3A58D3 /* Pods_Food_Delivery.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56F74D5A09BC5F22F072FECF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3975B2EE1E7816798216D23 /* Pods_Food_Delivery.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65F2429020B1F85800B35DD2 = {
+			isa = PBXGroup;
+			children = (
+				65F2429B20B1F85800B35DD2 /* Food Delivery */,
+				65F2429A20B1F85800B35DD2 /* Products */,
+				E5873955DC5981B746D0A326 /* Pods */,
+				56F74D5A09BC5F22F072FECF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		65F2429A20B1F85800B35DD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65F2429920B1F85800B35DD2 /* Food Delivery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65F2429B20B1F85800B35DD2 /* Food Delivery */ = {
+			isa = PBXGroup;
+			children = (
+				65F242AE20B1FF7500B35DD2 /* GoogleService-Info.plist */,
+				65F2429C20B1F85800B35DD2 /* AppDelegate.swift */,
+				65F2429E20B1F85800B35DD2 /* ViewController.swift */,
+				6578388620D97EEF004E8702 /* OrderDescriptionViewController.swift */,
+				65F242B220B28B7700B35DD2 /* SearchViewController.swift */,
+				65F242B020B22EA700B35DD2 /* CustomImageView.swift */,
+				65F242A020B1F85800B35DD2 /* Main.storyboard */,
+				65D2361620B35F2E0096AC33 /* DeliverViewController.swift */,
+				65F242A320B1F85800B35DD2 /* Assets.xcassets */,
+				65F242A520B1F85800B35DD2 /* LaunchScreen.storyboard */,
+				65F242A820B1F85800B35DD2 /* Info.plist */,
+			);
+			path = "Food Delivery";
+			sourceTree = "<group>";
+		};
+		E5873955DC5981B746D0A326 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D029E3CB9FB8BE8F47FEDB1 /* Pods-Food Delivery.debug.xcconfig */,
+				546D1FB8CE5425393219E333 /* Pods-Food Delivery.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65F2429820B1F85800B35DD2 /* Food Delivery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65F242AB20B1F85800B35DD2 /* Build configuration list for PBXNativeTarget "Food Delivery" */;
+			buildPhases = (
+				DDBC60F112F95597445AA76C /* [CP] Check Pods Manifest.lock */,
+				65F2429520B1F85800B35DD2 /* Sources */,
+				65F2429620B1F85800B35DD2 /* Frameworks */,
+				65F2429720B1F85800B35DD2 /* Resources */,
+				D7BBB55385A3390CC16B0FEB /* [CP] Embed Pods Frameworks */,
+				D37A9100D06795EC222523CA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Food Delivery";
+			productName = "Food Delivery";
+			productReference = 65F2429920B1F85800B35DD2 /* Food Delivery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65F2429120B1F85800B35DD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = BHSAppDevClub;
+				TargetAttributes = {
+					65F2429820B1F85800B35DD2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 65F2429420B1F85800B35DD2 /* Build configuration list for PBXProject "Food Delivery" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65F2429020B1F85800B35DD2;
+			productRefGroup = 65F2429A20B1F85800B35DD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65F2429820B1F85800B35DD2 /* Food Delivery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65F2429720B1F85800B35DD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F242A720B1F85800B35DD2 /* LaunchScreen.storyboard in Resources */,
+				65F242AF20B1FF7500B35DD2 /* GoogleService-Info.plist in Resources */,
+				65F242A420B1F85800B35DD2 /* Assets.xcassets in Resources */,
+				65F242A220B1F85800B35DD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D37A9100D06795EC222523CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Food Delivery/Pods-Food Delivery-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7BBB55385A3390CC16B0FEB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Food Delivery/Pods-Food Delivery-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Food Delivery/Pods-Food Delivery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDBC60F112F95597445AA76C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Food Delivery-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65F2429520B1F85800B35DD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F242B120B22EA700B35DD2 /* CustomImageView.swift in Sources */,
+				65F2429F20B1F85800B35DD2 /* ViewController.swift in Sources */,
+				6578388720D97EEF004E8702 /* OrderDescriptionViewController.swift in Sources */,
+				65F242B320B28B7700B35DD2 /* SearchViewController.swift in Sources */,
+				65F2429D20B1F85800B35DD2 /* AppDelegate.swift in Sources */,
+				65D2361720B35F2E0096AC33 /* DeliverViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65F242A020B1F85800B35DD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65F242A120B1F85800B35DD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65F242A520B1F85800B35DD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65F242A620B1F85800B35DD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65F242A920B1F85800B35DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65F242AA20B1F85800B35DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65F242AC20B1F85800B35DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D029E3CB9FB8BE8F47FEDB1 /* Pods-Food Delivery.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6STS6A83BV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Food\\ Delivery/grpc-swift/build/Debug",
+					"$(PROJECT_DIR)/Food\\ Delivery/grpc-swift/build/Debug",
+					"$(PROJECT_DIR)/Food\\ Delivery/grpc-swift/build/Debug",
+					"$(PROJECT_DIR)/Food\\ Delivery/grpc-swift/build/Debug",
+				);
+				INFOPLIST_FILE = "Food Delivery/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AndreAssadi.Food-Delivery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65F242AD20B1F85800B35DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 546D1FB8CE5425393219E333 /* Pods-Food Delivery.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6STS6A83BV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Food\\ Delivery/grpc-swift/build/Debug",
+					"$(PROJECT_DIR)/Food\\ Delivery/grpc-swift/build/Debug",
+					"$(PROJECT_DIR)/Food\\ Delivery/grpc-swift/build/Debug",
+					"$(PROJECT_DIR)/Food\\ Delivery/grpc-swift/build/Debug",
+				);
+				INFOPLIST_FILE = "Food Delivery/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AndreAssadi.Food-Delivery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65F2429420B1F85800B35DD2 /* Build configuration list for PBXProject "Food Delivery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F242A920B1F85800B35DD2 /* Debug */,
+				65F242AA20B1F85800B35DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65F242AB20B1F85800B35DD2 /* Build configuration list for PBXNativeTarget "Food Delivery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F242AC20B1F85800B35DD2 /* Debug */,
+				65F242AD20B1F85800B35DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65F2429120B1F85800B35DD2 /* Project object */;
+}
