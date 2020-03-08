@@ -28,9 +28,6 @@ This app was designed for a social impact hackathon in SF named 100Hacks. The pu
 - Type in your location
 - Confirm with "Y"
 
-**Please Note**
-
-I never finished this app, it was meant for displaying purposes at the hackathon. I did work on it previously 2 weeks before the hackathon began and for this reason it is quite sophisticated. We implemented Firebase storage and database, the Twilio API with node.js while hosting on heroku severs, and of course the app itself. I would love to finish it in the future.
 
 
 
